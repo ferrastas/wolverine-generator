@@ -1,0 +1,6 @@
+version: '3'
+services:
+    wolverinator:
+        build: .
+        volumes:
+            - ./processed:/code/processed
