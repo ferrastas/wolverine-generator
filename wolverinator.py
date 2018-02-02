@@ -42,6 +42,6 @@ new_im.paste(wolverine, (0,0), mask=wolverine)
 
 
 # save
-#location = os.environ['DEST_PATH'] + "/" + name
-location = os.environ['DEST_PATH'] + "/latest.png"
+location = os.environ['DEST_PATH'] + "/" + name
+#location = os.environ['DEST_PATH'] + "/latest.png"
 new_im.save(location)
